@@ -1,0 +1,12 @@
+
+module hl2linux 1.0;
+
+require {
+	type spc_t;
+	class process execheap;
+}
+
+#============= spc_t ==============
+
+#!!!! This avc can be allowed using the boolean 'selinuxuser_execheap'
+allow spc_t self:process execheap;
