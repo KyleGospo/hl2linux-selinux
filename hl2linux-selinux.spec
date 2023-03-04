@@ -7,7 +7,7 @@
 
 # Package information
 Name:			hl2linux-selinux
-Version:		1.0
+Version:		1.1
 Release:		1%{?dist}
 License:		GPLv2
 Group:			System Environment/Base
